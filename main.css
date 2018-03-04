@@ -1,0 +1,86 @@
+*{
+  margin:0;
+  padding:0;
+}
+.html{
+
+}
+.body{
+
+}
+.wrapper {
+height:100vh;
+
+}
+
+.parallax1{
+  background-image: url("http://res.cloudinary.com/dyag5tn5v/image/upload/v1518157937/header_-_Copy_-_Copy_-_Copy_lv6nh9.jpg");
+  background-color: white;
+  min-height:100%;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size:cover;}
+  .parallax2 {
+  background-image: url("http://res.cloudinary.com/dyag5tn5v/image/upload/v1518173204/1__1_96_-_Copy_vomn5q.jpg");
+  background-color: black;
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 1350px;
+
+}
+  .item1{
+    background-color:yellow;
+    color:DarkSlateGrey;
+    width:400px;
+    max-height:200px;
+    padding: 10px 10px 0 10px;
+    text-align:left;
+    font-size:130px;
+    font-family: 'Josefin Sans', sans-serif;
+    position:relative;
+    top:15%;
+    left:10%;
+  }
+  .item2{
+    background-color:yellow;
+    color:DarkSlateGrey;
+    width:460px;
+    max-height:200px;
+    padding: 10px 10px 0 10px;
+    text-align:left;
+    font-size:130px;
+    font-family: 'Josefin Sans', sans-serif;
+    position:relative;
+    top:20%;
+    left:10%;
+  }
+  .item3{
+    background-color:yellow;
+    color:DarkSlateGrey;
+    width:120px;
+    max-height:200px;
+    padding: 10px 10px 0 10px;
+    text-align:left;
+    font-size:130px;
+    font-family: 'Josefin Sans', sans-serif;
+    position:relative;
+    top:25%;
+    left:10%;
+  }
+
+  .item4{
+    background-color:white;
+
+    width:200px;
+    height:33px;
+    text-align:left;
+    font-weight:thin;
+    align-self:end;
+    font-family: 'Josefin Sans', sans-serif;
+    position:relative;
+    top:27%;
+    left:10%;
+  }
