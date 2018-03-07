@@ -9,7 +9,7 @@ height:100vh;
 }
 .cover1{
   position: absolute;
-  top:15%;
+  bottom:15%;
   left:10%;
 }
 .parallax1{
@@ -25,74 +25,60 @@ height:100vh;
   background-color: black;
   min-height: 100%;
   background-attachment: fixed;
-  background-position: top;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: 1350px;
 
 }
 
 /*first page*/
+.wordstyle{
+  background-color:yellow;
+  color:DarkSlateGrey;
+  max-height:200px;
+  padding: 10px 10px 0 10px;
+  text-align:left;
+  font-size:130px;
+  font-family: 'Josefin Sans', sans-serif;
+}
   .item1{
-    background-color:yellow;
-    color:DarkSlateGrey;
     width:400px;
-    max-height:200px;
-    padding: 10px 10px 0 10px;
-    text-align:left;
-    font-size:130px;
-    font-family: 'Josefin Sans', sans-serif;
     position:relative;
     }
   .item2{
-    background-color:yellow;
-    color:DarkSlateGrey;
     width:460px;
-    max-height:200px;
-    padding: 10px 10px 0 10px;
-    text-align:left;
-    font-size:130px;
-    font-family: 'Josefin Sans', sans-serif;
     position:relative;
     top:20px;
-
   }
   .item3{
-    background-color:yellow;
-    color:DarkSlateGrey;
     width:120px;
-    max-height:200px;
-    padding: 10px 10px 0 10px;
-    text-align:left;
-    font-size:130px;
-    font-family: 'Josefin Sans', sans-serif;
     position:relative;
     top:40px;
-
   }
 
   .item4{
     background-color:white;
-
     width:200px;
     height:33px;
     text-align:left;
     font-weight:thin;
     align-self:end;
     font-family: 'Josefin Sans', sans-serif;
-    position:absolute;
-    top:95%;
-    left:10%;
+    position:relative;
+    top:70px;
   }
 /*second page*/
-
-@media only screen and (max-width: 400px){
+.quote{
+  height: 100vh;
+}
+@media only screen and (max-width: 450px){
   .wrapper {
   height:100vh;
 
   }
   .cover1{
     position: absolute;
-    top:60%;
+    bottom:10%;
 
   }
   .parallax1{
@@ -142,7 +128,7 @@ height:100vh;
       font-weight:thin;
       align-self:end;
       position:absolute;
-      top:95%;
-      left:57%;
-    }
+      top: 115%;
+      
+       }
 }
