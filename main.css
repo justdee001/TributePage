@@ -84,7 +84,7 @@ height:100vh;
 
 @media only screen and (max-width: 400px){
   .wrapper {
-  height:680px;
+  height:100vh;
 
   }
   .parallax1{
@@ -94,7 +94,7 @@ height:100vh;
     background-attachment: fixed;
     background-position:top;
     background-repeat: no-repeat;
-    background-size:410px;}
+    background-size:cover;}
     .item1{
       width:210px;
       max-height:200px;
@@ -102,7 +102,7 @@ height:100vh;
       text-align:left;
       font-size:60px;
       position:relative;
-      top:365px;
+      top:57%;
       left:10%;
     }
     .item2{
@@ -113,7 +113,7 @@ height:100vh;
       text-align:left;
       font-size:60px;
       position:relative;
-      top:375px;
+      top:59%;
       left:10%;
     }
     .item3{
@@ -123,7 +123,7 @@ height:100vh;
       text-align:left;
       font-size:60px;
       position:relative;
-      top:385px;
+      top:61%;
       left:10%;
     }
 
@@ -135,7 +135,7 @@ height:100vh;
       font-weight:thin;
       align-self:end;
       position:relative;
-      top:402px;
+      top:63vh;
       left:57%;
     }
 }
