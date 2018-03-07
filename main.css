@@ -7,6 +7,11 @@
 height:100vh;
 
 }
+.cover1{
+  position: absolute;
+  top:15%;
+  left:10%;
+}
 .parallax1{
   background-image: url("http://res.cloudinary.com/dyag5tn5v/image/upload/v1518157937/header_-_Copy_-_Copy_-_Copy_lv6nh9.jpg");
   background-color: white;
@@ -37,9 +42,7 @@ height:100vh;
     font-size:130px;
     font-family: 'Josefin Sans', sans-serif;
     position:relative;
-    top:15%;
-    left:10%;
-  }
+    }
   .item2{
     background-color:yellow;
     color:DarkSlateGrey;
@@ -50,8 +53,8 @@ height:100vh;
     font-size:130px;
     font-family: 'Josefin Sans', sans-serif;
     position:relative;
-    top:20%;
-    left:10%;
+    top:20px;
+
   }
   .item3{
     background-color:yellow;
@@ -63,8 +66,8 @@ height:100vh;
     font-size:130px;
     font-family: 'Josefin Sans', sans-serif;
     position:relative;
-    top:25%;
-    left:10%;
+    top:40px;
+
   }
 
   .item4{
@@ -76,8 +79,8 @@ height:100vh;
     font-weight:thin;
     align-self:end;
     font-family: 'Josefin Sans', sans-serif;
-    position:relative;
-    top:27%;
+    position:absolute;
+    top:95%;
     left:10%;
   }
 /*second page*/
@@ -89,7 +92,7 @@ height:100vh;
   }
   .cover1{
     position: absolute;
-    top:60%;
+    top:60vh;
 
   }
   .parallax1{
