@@ -90,8 +90,8 @@ height:100vh;
   .parallax1{
     background-image: url("http://res.cloudinary.com/dyag5tn5v/image/upload/v1518074316/header_cg6vq5.jpg");
     background-color: white;
-    min-height:100%;
-    background-attachment: fixed;
+    min-height:540px;
+    background-attachment:scroll;
     background-position:top;
     background-repeat: no-repeat;
     background-size:cover;}
@@ -135,7 +135,7 @@ height:100vh;
       font-weight:thin;
       align-self:end;
       position:relative;
-      top:63vh;
+      top:60%;
       left:57%;
     }
 }
