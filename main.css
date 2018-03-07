@@ -83,22 +83,26 @@ height:100vh;
 /*second page*/
 
 @media only screen and (max-width: 400px){
+  .wrapper {
+  height:680px;
+
+  }
   .parallax1{
-    background-image: url("http://res.cloudinary.com/dyag5tn5v/image/upload/v1518074887/header_-_Copy_-_Copy_mq1bmy.jpg");
+    background-image: url("http://res.cloudinary.com/dyag5tn5v/image/upload/v1518074316/header_cg6vq5.jpg");
     background-color: white;
     min-height:100%;
     background-attachment: fixed;
     background-position:top;
     background-repeat: no-repeat;
-    background-size:contain;}
+    background-size:410px;}
     .item1{
       width:210px;
       max-height:200px;
       padding: 10px 10px 0 10px;
       text-align:left;
-      font-size:70px;
+      font-size:60px;
       position:relative;
-      top:335px;
+      top:365px;
       left:10%;
     }
     .item2{
@@ -107,9 +111,9 @@ height:100vh;
       max-height:200px;
       padding: 10px 10px 0 10px;
       text-align:left;
-      font-size:70px;
+      font-size:60px;
       position:relative;
-      top:350px;
+      top:375px;
       left:10%;
     }
     .item3{
@@ -117,21 +121,21 @@ height:100vh;
       max-height:200px;
       padding: 10px 10px 0 10px;
       text-align:left;
-      font-size:70px;
+      font-size:60px;
       position:relative;
-      top:365px;
+      top:385px;
       left:10%;
     }
 
     .item4{
-      background-color: rgba(0,0,0,0);
+      background-color: rgba(255,255,255,0.6);
       width:150px;
       height:20px;
       text-align:left;
       font-weight:thin;
       align-self:end;
       position:relative;
-      top:370px;
+      top:402px;
       left:57%;
     }
 }
