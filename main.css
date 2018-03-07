@@ -71,6 +71,7 @@ height:100vh;
 .quote{
   height: 100vh;
 }
+/* mobile */
 @media only screen and (max-width: 450px){
   .wrapper {
   height:100vh;
@@ -84,47 +85,41 @@ height:100vh;
   .parallax1{
     background-image: url("http://res.cloudinary.com/dyag5tn5v/image/upload/v1518074316/header_cg6vq5.jpg");
     background-color: white;
-    min-height:540px;
+    min-height:100vh;
     background-attachment:scroll;
     background-position:top;
     background-repeat: no-repeat;
     background-size:cover;}
-    .item1{
+    .wordstyle{
       background-color: rgba(255,255,0,0.8);
-
-      width:210px;
       max-height:200px;
       padding: 10px 10px 0 10px;
       text-align:left;
       font-size:60px;
+
+    }
+    .item1{
+      width:210px;
       position:relative;
 
     }
     .item2{
-      background-color: rgba(255,255,0,0.8);
       width:240px;
-      max-height:200px;
-      padding: 10px 10px 0 10px;
-      text-align:left;
-      font-size:60px;
       position:relative;
       top:10px;
 
     }
     .item3{
-      background-color: rgba(255,255,0,0.8);
       width:50px;
-      max-height:200px;
-      padding: 10px 10px 0 10px;
-      text-align:left;
-      font-size:60px;
       position:relative;
       top:20px;
 
     }
 
     .item4{
-      background-color: rgba(255,255,255,0.6);
+      background-color: rgba(255,255,255,0);
+      color: rgba(255,255,255,0.7);
+      padding:0px;
       width:150px;
       height:20px;
       text-align:left;
@@ -132,6 +127,64 @@ height:100vh;
       align-self:end;
       position:absolute;
       top: 115%;
+       }
+}
+/* tab */
+@media only screen and (min-width: 451px) and (max-width:740px){
+  .wrapper {
+  height:100vh;
 
+  }
+  .cover1{
+    position: absolute;
+    top:9%;
+
+  }
+  .parallax1{
+    background-image: url("http://res.cloudinary.com/dyag5tn5v/image/upload/v1518157937/header_-_Copy_-_Copy_-_Copy_lv6nh9.jpg");
+    background-color: white;
+    min-height:100vh;
+    background-attachment:scroll;
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size:193vh;}
+
+    .wordstyle{
+      background-color: rgba(255,255,0,0.8);
+      max-height:200px;
+      padding: 10px 10px 0 10px;
+      text-align:left;
+      font-size:60px;
+
+    }
+    .item1{
+      width:210px;
+      position:relative;
+
+    }
+    .item2{
+      width:240px;
+      position:relative;
+      top:10px;
+
+    }
+    .item3{
+      width:50px;
+      position:relative;
+      top:20px;
+
+    }
+
+    .item4{
+      background-color: rgba(255,255,255,0.8);
+      color: rgba(0,0,0,0.7);
+      padding:0px;
+      width:150px;
+      height:20px;
+      text-align:left;
+      font-weight:thin;
+      align-self:end;
+      position:absolute;
+      top:-10%;
        }
 }
