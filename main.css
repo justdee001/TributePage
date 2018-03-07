@@ -2,22 +2,21 @@
   margin:0;
   padding:0;
 }
-
 .wrapper {
 height:100vh;
 
 }
 .cover1{
   position: absolute;
-  bottom:15%;
+  bottom:10%;
   left:10%;
 }
 .parallax1{
-  background-image: url("http://res.cloudinary.com/dyag5tn5v/image/upload/v1518157937/header_-_Copy_-_Copy_-_Copy_lv6nh9.jpg");
+  background-image: url("http://res.cloudinary.com/dyag5tn5v/image/upload/v1518074316/header_cg6vq5.jpg");
   background-color: white;
-  min-height:100%;
-  background-attachment: fixed;
-  background-position: top;
+  min-height:100vh;
+  background-attachment:scroll;
+  background-position:top;
   background-repeat: no-repeat;
   background-size:cover;}
   .parallax2 {
@@ -30,161 +29,126 @@ height:100vh;
   background-size: 1350px;
 
 }
-
-/*first page*/
 .wordstyle{
-  background-color:yellow;
-  color:DarkSlateGrey;
-  max-height:200px;
-  padding: 10px 10px 0 10px;
-  text-align:left;
-  font-size:130px;
-  font-family: 'Josefin Sans', sans-serif;
-}
-  .item1{
-    width:400px;
+    background-color: rgba(255,255,0,0.8);
+      color:DarkSlateGrey;
+    max-height:200px;
+    padding: 10px 10px 0 10px;
+    text-align:left;
+    font-size:60px;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+.item1{
+    width:210px;
     position:relative;
-    }
-  .item2{
-    width:460px;
+
+  }
+.item2{
+    width:240px;
+    position:relative;
+    top:10px;
+
+  }
+.item3{
+    width:50px;
     position:relative;
     top:20px;
-  }
-  .item3{
-    width:120px;
-    position:relative;
-    top:40px;
+
   }
 
-  .item4{
-    background-color:white;
-    width:200px;
-    height:33px;
+.item4{
+    background-color: rgba(255,255,255,0);
+    color: rgba(255,255,255,0.7);
+    width:150px;
+    height:20px;
     text-align:left;
-    font-weight:thin;
+    font-weight: thin;
     align-self:end;
+    position:absolute;
+    top: 115%;
     font-family: 'Josefin Sans', sans-serif;
-    position:relative;
-    top:70px;
-  }
-/*second page*/
-.quote{
-  height: 100vh;
-}
-/* mobile */
-@media only screen and (max-width: 450px){
-  .wrapper {
-  height:100vh;
-
-  }
-  .cover1{
-    position: absolute;
-    bottom:10%;
-
-  }
-  .parallax1{
-    background-image: url("http://res.cloudinary.com/dyag5tn5v/image/upload/v1518074316/header_cg6vq5.jpg");
-    background-color: white;
-    min-height:100vh;
-    background-attachment:scroll;
-    background-position:top;
-    background-repeat: no-repeat;
-    background-size:cover;}
-    .wordstyle{
-      background-color: rgba(255,255,0,0.8);
-      max-height:200px;
-      padding: 10px 10px 0 10px;
-      text-align:left;
-      font-size:60px;
-
-    }
-    .item1{
-      width:210px;
-      position:relative;
-
-    }
-    .item2{
-      width:240px;
-      position:relative;
-      top:10px;
-
-    }
-    .item3{
-      width:50px;
-      position:relative;
-      top:20px;
-
-    }
-
-    .item4{
-      background-color: rgba(255,255,255,0);
-      color: rgba(255,255,255,0.7);
-      padding:0px;
-      width:150px;
-      height:20px;
-      text-align:left;
-      font-weight:thin;
-      align-self:end;
-      position:absolute;
-      top: 115%;
-       }
-}
+     }
 /* tab */
-@media only screen and (min-width: 451px) and (max-width:740px){
-  .wrapper {
-  height:100vh;
+@media only screen and (min-width: 450px) and (max-width:740px){
 
-  }
   .cover1{
     position: absolute;
     top:9%;
+}
+.parallax1{
+  background-image: url("http://res.cloudinary.com/dyag5tn5v/image/upload/v1518157937/header_-_Copy_-_Copy_-_Copy_lv6nh9.jpg");
+  background-position:right;
+  background-size:193vh;}
+.item1{
+    position:relative;
 
+  }
+  .item2{
+    position:relative;
+    top:10px;
+
+  }
+  .item3{
+    position:relative;
+    top:20px;
+
+  }
+  .item4{
+    background-color: rgba(255,255,255,0.8);
+    color: rgba(0,0,0,0.7);
+    padding:0px;
+    width:150px;
+    height:20px;
+    position:absolute;
+    top:-10%;
+     }
+}
+/* ipad */
+@media only screen and (min-width:741px) and (max-width: 800px){
+
+  .parallax1{
+    background-image: url("http://res.cloudinary.com/dyag5tn5v/image/upload/v1518074316/header_cg6vq5.jpg");
+    background-position:bottom;
+    background-size:75vh;}
+
+}
+
+/* desktop */
+@media only screen and (min-width: 801px){
+
+  .cover1{
+    position: absolute;
+    bottom:15%;
+    left:10%;
   }
   .parallax1{
     background-image: url("http://res.cloudinary.com/dyag5tn5v/image/upload/v1518157937/header_-_Copy_-_Copy_-_Copy_lv6nh9.jpg");
-    background-color: white;
-    min-height:100vh;
-    background-attachment:scroll;
-    background-position:right;
-    background-repeat: no-repeat;
-    background-size:193vh;}
-
+    min-height:100%;
+    background-attachment: fixed;}
     .wordstyle{
-      background-color: rgba(255,255,0,0.8);
-      max-height:200px;
-      padding: 10px 10px 0 10px;
-      text-align:left;
-      font-size:60px;
-
+      background-color:yellow;
+        font-size:130px;
     }
     .item1{
-      width:210px;
+      width:400px;
       position:relative;
-
-    }
+      }
     .item2{
-      width:240px;
-      position:relative;
-      top:10px;
-
-    }
-    .item3{
-      width:50px;
+      width:460px;
       position:relative;
       top:20px;
-
     }
-
+    .item3{
+      width:120px;
+      position:relative;
+      top:40px;
+    }
     .item4{
-      background-color: rgba(255,255,255,0.8);
-      color: rgba(0,0,0,0.7);
-      padding:0px;
-      width:150px;
-      height:20px;
-      text-align:left;
-      font-weight:thin;
-      align-self:end;
-      position:absolute;
-      top:-10%;
-       }
+      background-color:white;
+      color: black;
+      width:200px;
+      height:33px;
+      position:relative;
+      top:70px;
+    }
 }
