@@ -90,7 +90,8 @@ height:100vh;
     background-repeat: no-repeat;
     background-size:cover;}
     .item1{
-      background-color: rgba(255,255,0,0.6);
+      background-color: rgba(255,255,0,0.8);
+
       width:210px;
       max-height:200px;
       padding: 10px 10px 0 10px;
@@ -100,7 +101,7 @@ height:100vh;
 
     }
     .item2{
-      background-color: rgba(255,255,0,0.6);
+      background-color: rgba(255,255,0,0.8);
       width:240px;
       max-height:200px;
       padding: 10px 10px 0 10px;
@@ -111,7 +112,7 @@ height:100vh;
 
     }
     .item3{
-      background-color: rgba(255,255,0,0.6);
+      background-color: rgba(255,255,0,0.8);
       width:50px;
       max-height:200px;
       padding: 10px 10px 0 10px;
