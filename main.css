@@ -87,6 +87,11 @@ height:100vh;
   height:100vh;
 
   }
+  .cover1{
+    position: absolute;
+    top:60%;
+
+  }
   .parallax1{
     background-image: url("http://res.cloudinary.com/dyag5tn5v/image/upload/v1518074316/header_cg6vq5.jpg");
     background-color: white;
@@ -102,8 +107,7 @@ height:100vh;
       text-align:left;
       font-size:60px;
       position:relative;
-      top:57%;
-      left:10%;
+
     }
     .item2{
 
@@ -113,8 +117,8 @@ height:100vh;
       text-align:left;
       font-size:60px;
       position:relative;
-      top:59%;
-      left:10%;
+      top:10px;
+
     }
     .item3{
       width:50px;
@@ -123,8 +127,8 @@ height:100vh;
       text-align:left;
       font-size:60px;
       position:relative;
-      top:61%;
-      left:10%;
+      top:20px;
+
     }
 
     .item4{
