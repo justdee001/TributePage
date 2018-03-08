@@ -26,7 +26,7 @@ height:100vh;
   background-attachment: scroll;
   background-position: left;
   background-repeat: no-repeat;
-  background-size: 750px;
+  background-size: 855px;
 
 }
 .wordstyle{
@@ -74,9 +74,10 @@ height:100vh;
        height: 70vh;
      }
      .qline , .qline1{
-       font-size: 40px;
+       text-align:center;
+       font-size: 30px;
        position: relative;
-       top:35%;
+       top:45%;
        margin:0 20px 0 20px;
        line-height:1.1em ;
      }
@@ -94,6 +95,7 @@ height:100vh;
        text-align: center;
      }
 li{
+
   border-left:10px solid rgba(255,255,0,0.3) ;
   margin:20px 0 0 0;
   padding:0 0 0 10px;
@@ -106,14 +108,39 @@ li{
        line-height: 1.6em;
        letter-spacing: 0.02em;
      }
-     .gif{
-       width:100%;
-     }
-     .img1{
-       display: none;
-       max-width:320px;
-       border-radius:100%;
-     }
+
+/* page 4 awards */
+.awardpage{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.awardline{
+  padding:20px;
+  text-align: center;
+}
+.awardlist{
+margin:0 auto 0 auto;
+max-width:600px;
+  height:auto;
+}
+.awarditem{
+
+  box-shadow: 3px 3px 10px grey;
+  margin:20px;
+  padding:5px 0 5px 10px;
+  border-left:10px solid rgba(255,255,0,0.3);
+  line-height: 1.6em;
+  letter-spacing: 0.02em;
+}
+.imgaward{
+  width:300px;
+  height:600px;
+  margin: 0 auto;
+}
+img{
+
+  width:300px;
+  border-radius:5px;
+}
 
 /* tab */
 @media only screen and (min-width: 450px) and (max-width:740px){
@@ -160,6 +187,14 @@ li{
      .qline , .qline1{
        top:40%;
        line-height: 1.4em;
+     }
+     .para{
+         max-width:80%;
+     }
+     .awardlist{
+
+     max-width:600px;
+       height:auto;
      }
 }
 /* ipad */
@@ -230,4 +265,7 @@ li{
       margin:0 40px 0 40px;
       text-align: center;
     }
+    .para{
+        max-width:60%;
+         }
 }
