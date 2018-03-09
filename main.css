@@ -204,10 +204,40 @@ a:visited{
 a:hover{
   text-decoration:none;
   color:black;
-  background-color: yellow;
+  background-color: ;
 
 }
 
+.moreinfo{
+  background: white;
+  margin:0 auto;
+  height:650px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.pic-info{
+padding:20px 0;
+}
+.links{
+  width:200px;
+  display: flex;
+  justify-content:space-around;
+}
+
+
+/* footer */
+.footer{
+max-width: auto;
+
+background-color: rgba(0,0,0,0.8);
+}
+.foottext{
+   color:white;
+  padding:20px;
+  font-size: 20px;
+}
 /* tab */
 @media only screen and (min-width: 450px) and (max-width:740px){
 
